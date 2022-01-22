@@ -65,6 +65,8 @@ function SecretSanta() {
     )
     return (
         <div className="santa-Main">
+        <a href="/" className="hidden_href">  <button className="back_button">Go back</button></a>
+
             <h1 className="title-santa"> Тайный Санта </h1>
             <table className="table" id="table-id">
                 <thead>
@@ -96,7 +98,7 @@ function SecretSanta() {
                 }
                 </tbody>
             </table>
-            <button onClick={AddRow}>Add</button>
+            <button className="add" onClick={AddRow}>Add</button>
         </div>
     )
 }

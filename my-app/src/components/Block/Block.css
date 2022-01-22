@@ -14,6 +14,18 @@
 
 }
 
+.back_button{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
 .input_search{
     height: 35px;
     border-radius: 10px;
@@ -55,4 +67,9 @@ padding-bottom: 40px;
 #items > div{
 margin-bottom: 5px;
 margin-top: 5px;
+}
+
+.hidden_href{
+    text-decoration: none;
+    cursor: pointer;
 }

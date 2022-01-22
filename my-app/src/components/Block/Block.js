@@ -47,7 +47,10 @@ function Block() {
 
     return (
         <div className="Main_block">
+        <a href="/" className="hidden_href">  <button className="back_button">Go back</button></a>
+
             <div className="Search">
+
                 <input type="text"
                     className="input_search"
                     id="myInput"
