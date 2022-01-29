@@ -26,36 +26,11 @@ function SecretSanta() {
         let element = document.getElementById("participant_" + number);
         element.parentNode.removeChild(element);
 
-        //i must create some loop which will change the numbers
-        //start with number+1
-
-        let rowLength = numbers.length;
-
         let current = numbers;
         current.pop()
         setNumbers(current)
 
-        // let elemaaa = e.target.parentNode.parentNode;
-        // console.log(elemaaa)
-        // for (let i = number+1; i < rowLength; i++) {
-        //     let elem = e.target.parentNode.parentNode;
-        //     console.log(elem)
-        //     let newValue = number - 1;
-        //     elem.setAttribute("key","participant_"+newValue)
-        //     let firstElem = elem.children[0];
-        //     firstElem.innerHTML = newValue;
-        //     elem.setAttribute("id","participant_"+newValue)
-            
-        // }
-
-        // arr.pop();
-
-        // setNumbers(arr);
-        // if(change){
-        //     setChange(false)
-        // }else{
-        //     setChange(true)
-        // }
+        
 
     }
     useEffect(
